@@ -1,3 +1,4 @@
+# Temperature Converter v1.1
 def celsius_to_fahrenheit(celsius):
  """Конвертує Цельсій у Фаренгейт"""
  return (celsius * 9/5) + 32
@@ -35,7 +36,3 @@ temp = float(input("Введіть температуру: "))
 except ValueError:
  print("Помилка: введіть коректне число!")
  input("\nНатисніть Enter, щоб закрити програму...")
- def fahrenheit_to_kelvin(fahrenheit):
- """Конвертує Фаренгейт у Кельвін"""
- celsius = fahrenheit_to_celsius(fahrenheit)
- return celsius_to_kelvin(celsius)
